@@ -20,5 +20,6 @@ If you want to install over system:
      make install
 ```
 If you want to install as another qt for 32 bit machines over 64 bit systems
+```
      ../qt-everywhere-src-5.14.0/configure -nomake examples -nomake tests -recheck -platform linux-g++-32 -prefix $PWD
 ```  
